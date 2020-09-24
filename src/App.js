@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import CardList from './components/Card';
+import { CardList,testData } from './components/Card';
+import Form from './components/Form';
+// import { testData } from './components/Card'
 
 class App extends React.Component {
   render(){
   return (
     <div>
     <div className="header">{this.props.title}</div>
-
-      <CardList />
+      <Form />
+      <CardList profiles={testData}/>
     </div>
 
 
