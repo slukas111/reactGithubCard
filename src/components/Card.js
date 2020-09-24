@@ -7,7 +7,7 @@ export const testData = [
 ]
 export const CardList = (props) => (
     <div>
-        {testData.map(profile => <Card {...profile} />)}
+        {props.profiles.map(profile => <Card key={profile.id} {...profile} />)}
 
     </div>
 );

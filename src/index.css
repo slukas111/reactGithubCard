@@ -11,3 +11,30 @@ img {
 .name {
   font-size: 125%;
 }
+.header {
+  background-color: black;
+  color: white;
+  text-size-adjust: auto;
+  width: 300px;
+  border: 15px solid whitesmoke;
+  padding: 50px;
+  margin: 20px;
+}
+.card-content {
+  background-color: black;
+  color: white;
+  text-size-adjust: auto;
+  width: 300px;
+  border: 15px solid whitesmoke;
+  padding: 50px;
+  margin: 20px;
+}
+.form-submit {
+  background-color: black;
+  color: white;
+  text-size-adjust: auto;
+  width: 375px;
+  border: 15px solid whitesmoke;
+  padding: 15px;
+  margin: 20px;
+}
